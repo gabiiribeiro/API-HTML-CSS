@@ -32,10 +32,3 @@ body {
     height: 25px;
     font-size: 1.2rem;
 }
-
-#botão {
-    align-items: center;
-    padding: 6px;
-    background-color: rgb(209, 209, 209);
-    border-color: rgb(0, 0, 0);
-}

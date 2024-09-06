@@ -8,8 +8,8 @@ function consultarCEP(cep) {
   }
 
   function preencherCampos(dados) {
-    document.getElementById('logradouro').value = dados.logradouro || '';
-    document.getElementById('bairro').value = dados.bairro || '';
-    document.getElementById('cidade').value = dados.localidade || '';
-    document.getElementById('estado').value = dados.uf || '';
+    document.getElementById('RUA').value = dados.logradouro || '';
+    document.getElementById('BAIRRO').value = dados.bairro || '';
+    document.getElementById('CIDADE').value = dados.localidade || '';
+    document.getElementById('ESTADO').value = dados.uf || '';
   }

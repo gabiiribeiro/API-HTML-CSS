@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta de CEP</title>
     <link rel="stylesheet" href="index.css">
-    <script src="./JS/consulta-endereco.js"></script>
+    <script src="JS/consulta-endereco.js"></script>
 </head>
 <body>
 
@@ -14,7 +14,7 @@
     <form>
       <div class="frm-row">
         <label for="CEP">CEP</label>
-        <input type="text" name="CEP" id="CEP">
+        <input type="text" name="CEP" id="CEP" onblur="consultarCEP(this.value)">
       </div>
       <div class="frm-row">
         <label for="RUA">RUA</label>
@@ -37,7 +37,6 @@
 
   </div>
 
-<input type="submit" value="CONSULTAR" onclick="consultarCEP(cep)" id="botão" >
   
   </body>
   
